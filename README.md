@@ -10,7 +10,7 @@ Daniel R. Murillo Antuna: [@dan-murillo](https://github.com/dan-murillo)
 
 In this repository you will find how an unsupervised learning Machine Learning model was applied to cluster cryptocurrencies. The purpose of the analysis was to find the best way to cluster such currencies and to evaluate how inertia and the number of features affect the analysis.
 
-The data was prepared for the analysis, and the following method was run twice:
+The data were prepared for the analysis, and the following method was run twice:
 - Creating a ```Pandas``` DataFrame with the data to be analysed, finding the best value for 'k', clustering the cryptocurrencies with the K-means component of ```Sci-kit Learn```, and plotting the results with ```hvPlot```.
 
 It was run twice because two different datasets were used: first, the original dataset, and second, the same dataset, but optimised with a PCA analysis.
